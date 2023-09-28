@@ -1,0 +1,23 @@
+#footer-foot {
+  height: 10vh;
+  background-color: #c40404;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  #footer-foot h2 {
+    font-size: 15px;
+    color: black; }
+  #footer-foot ul {
+    display: flex;
+    margin: 10px; }
+    #footer-foot ul li {
+      text-decoration: none;
+      margin-right: 25px; }
+  #footer-foot a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+    #footer-foot a:hover {
+      color: grey; }

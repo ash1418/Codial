@@ -1,0 +1,44 @@
+nav{
+    margin: 0px;
+
+    height:8vh;
+    background-color:rgb(196, 4, 4);
+    display:flex;
+    justify-content: space-between;
+    p{
+        font-size: 50px;
+        color:rgb(238, 212, 154);
+        text-decoration: none;
+        margin-top: 0px;
+        a{
+            color: black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+        
+    }
+    h2{
+        color: antiquewhite;
+        font-size:50px;
+        display:inline;
+        margin-top: 0px;
+    }
+    ul{
+        display: flex;
+        text-align: left;
+        margin:0px;
+        li{
+            margin:20px;
+        }
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        &:hover{
+            color: grey;
+        }
+
+    }
+}

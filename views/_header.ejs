@@ -1,0 +1,37 @@
+
+<header id="header-head">
+     <nav>
+          <p>
+               <a href='/'>
+                   Codial
+               </a>
+           </p>
+
+     <div id="auth-links">
+        <ul>
+
+         <% if(locals.user) { %>
+              <li >
+               <a href="/user/profile/<%= user.id %>"> <%= user.name %></a>
+                      
+              </li>
+              <li>
+               <a href="/user/sign-out"> Sign Out</a>
+              </li>
+
+         
+         <%} else{ %>
+              <li>
+               <a href="/user/sign-in"> Sign In</a>
+              </li>
+              <li>
+               <a href="/user/sign-up"> Sign Up</a>
+              </li>
+
+
+          <%} %>
+
+       </ul>
+     </div>
+     </nav>
+</header>

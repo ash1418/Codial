@@ -1,0 +1,16 @@
+<footer id="footer-foot">
+    <h2>@ Ashwary Pratap. All Rights Reserved</h2>
+<ul>
+    <% if(locals.user) { %>
+        <li >
+         <a href="/user/profile/<%= user.id %>">Profile </a>
+              
+        </li>
+        <li>
+         <a href="/user/sign-out"> Sign Out</a>
+        </li>
+    <% } %>
+   
+</ul>      
+
+</footer>

@@ -1,0 +1,3 @@
+node_modules/
+
+# now this module will be ignored and will not  be added to github

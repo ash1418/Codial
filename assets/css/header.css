@@ -1,0 +1,33 @@
+nav {
+  margin: 0px;
+  height: 8vh;
+  background-color: #c40404;
+  display: flex;
+  justify-content: space-between; }
+  nav p {
+    font-size: 50px;
+    color: #eed49a;
+    text-decoration: none;
+    margin-top: 0px; }
+    nav p a {
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none; }
+  nav h2 {
+    color: antiquewhite;
+    font-size: 50px;
+    display: inline;
+    margin-top: 0px; }
+  nav ul {
+    display: flex;
+    text-align: left;
+    margin: 0px; }
+    nav ul li {
+      margin: 20px; }
+  nav a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+    nav a:hover {
+      color: grey; }

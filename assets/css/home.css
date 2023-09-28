@@ -1,0 +1,51 @@
+#home-container {
+  display: flex;
+  background-color: #eed49a;
+  height: 100vh;
+  margin: 0px;
+  /* form_styles.scss */ }
+  #home-container #new-post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #home-container #new-post-form textarea {
+      width: 100%;
+      max-width: 400px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      resize: vertical;
+      /* Allow vertical resizing of the textarea */ }
+    #home-container #new-post-form input[type="Submit"] {
+      padding: 10px 20px;
+      background-color: #0074D9;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out; }
+      #home-container #new-post-form input[type="Submit"]:hover {
+        background-color: #0056b3; }
+  #home-container #feed-post {
+    width: 70%;
+    padding: 10px; }
+    #home-container #feed-post li:hover {
+      color: blueviolet; }
+  #home-container #posts-list-container ul {
+    list-style-type: none; }
+  #home-container #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid lightgray;
+    height: 100%;
+    background-color: #ff9422ea; }
+    #home-container #user-friends a {
+      text-decoration: none;
+      color: blueviolet;
+      font-family: Georgia, 'Times New Roman', Times, serif; }
+      #home-container #user-friends a:hover {
+        color: black;
+        transform: scale(1.05); }
